@@ -7,7 +7,7 @@
 <div align="center">Built with the Next.js 15 App Router</div>
 <br />
 <div align="center">
-<a href="https://github.com/adarshgupta404/RetailConnect">View Demo</a>
+<a href="https://retail-connect.vercel.app/">View Demo</a>
 <span>
 </div>
 
