@@ -36,13 +36,13 @@ _If you are looking for a React admin dashboard starter, here is the [repo](http
 
 | Pages                                                                                 | Specifications                                                                                                                                                 |
 | :------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Signup](https://next-shadcn-dashboard-starter.vercel.app/)                           | Authentication with **NextAuth** supports Social logins and email logins (Enter dummy email for demo).                                                         |
-| [Dashboard (Overview)](https://next-shadcn-dashboard-starter.vercel.app/dashboard)    | Cards with recharts graphs for analytics.Parallel routes in the overview sections with independent loading, error handling, and isolated component rendering . |
-| [Product](https://next-shadcn-dashboard-starter.vercel.app/dashboard/product)         | Tanstack tables with server side searching, filter, pagination by Nuqs which is a Type-safe search params state manager in nextjs                              |
-| [Product/new](https://next-shadcn-dashboard-starter.vercel.app/dashboard/product/new) | A Product Form with shadcn form (react-hook-form + zod).                                                                                                       |
-| [Profile](https://next-shadcn-dashboard-starter.vercel.app/dashboard/profile)         | Mutistep dynamic forms using react-hook-form and zod for form validation.                                                                                      |
-| [Kanban Board](https://next-shadcn-dashboard-starter.vercel.app/dashboard/kanban)     | A Drag n Drop task management board with dnd-kit and zustand to persist state locally.                                                                         |
-| [Not Found](https://next-shadcn-dashboard-starter.vercel.app/dashboard/notfound)      | Not Found Page Added in the root level                                                                                                                         |
+| [Signup](https://retail-connect.vercel.app/sign-in)                           | Authentication with **NextAuth** supports Social logins and email logins (Enter dummy email for demo).                                                         |
+| [Dashboard (Overview)](https://retail-connect.vercel.app/dashboard)    | Cards with recharts graphs for analytics.Parallel routes in the overview sections with independent loading, error handling, and isolated component rendering . |
+| [Product](https://retail-connect.vercel.app/dashboard/product)         | Tanstack tables with server side searching, filter, pagination by Nuqs which is a Type-safe search params state manager in nextjs                              |
+| [Product/new](https://retail-connect.vercel.app/dashboard/product/new) | A Product Form with shadcn form (react-hook-form + zod).                                                                                                       |
+| [Profile](https://retail-connect.vercel.app/dashboard/profile)         | Mutistep dynamic forms using react-hook-form and zod for form validation.                                                                                      |
+| [Kanban Board](https://retail-connect.vercel.app/dashboard/kanban)     | A Drag n Drop task management board with dnd-kit and zustand to persist state locally.                                                                         |
+| [Not Found](https://retail-connect.vercel.app/dashboard/notfound)      | Not Found Page Added in the root level                                                                                                                         |
 | -                                                                                     | -                                                                                                                                                              |
 
 ## Feature based organization
@@ -51,7 +51,8 @@ _If you are looking for a React admin dashboard starter, here is the [repo](http
 src/
 ├── app/ # Next.js App Router directory
 │ ├── (auth)/ # Auth route group
-│ │ ├── (signin)/
+│ │ ├── sign-in
+├─│ ├──├──(signin)/
 │ ├── (dashboard)/ # Dashboard route group
 │ │ ├── layout.tsx
 │ │ ├── loading.tsx
@@ -92,14 +93,14 @@ src/
 Clone the repo:
 
 ```
-git clone https://github.com/Kiranism/next-shadcn-dashboard-starter.git
+git clone https://github.com/adarshgupta404/RetailConnect.git
 ```
 
-- `pnpm install` ( we have legacy-peer-deps=true added in the .npmrc)
+- `npm install` ( we have legacy-peer-deps=true added in the .npmrc)
 - Create a `.env.local` file by copying the example environment file:
   `cp env.example.txt .env.local`
 - Add the required environment variables to the `.env.local` file.
-- `pnpm run dev`
+- `npm run dev`
 
 You should now be able to access the application at http://localhost:3000.
 
