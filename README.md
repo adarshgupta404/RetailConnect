@@ -7,7 +7,7 @@
 <div align="center">Built with the Next.js 15 App Router</div>
 <br />
 <div align="center">
-<a href="https://dub.sh/shadcn-dashboard">View Demo</a>
+<a href="https://github.com/adarshgupta404/RetailConnect">View Demo</a>
 <span>
 </div>
 
@@ -30,7 +30,7 @@ This is a starter template using the following stack:
 - Pre-commit Hooks - [Husky](https://typicode.github.io/husky/)
 - Formatting - [Prettier](https://prettier.io)
 
-_If you are looking for a React admin dashboard starter, here is the [repo](https://github.com/Kiranism/react-shadcn-dashboard-starter)._
+_If you are looking for a React admin dashboard starter, here is the [repo](https://github.com/adarshgupta404/RetailConnect)._
 
 ## Pages
 
